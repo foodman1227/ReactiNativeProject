@@ -12,11 +12,12 @@ export default function Title() {
 
 var styles = StyleSheet.create({
     container:{
-        flexDirection:'row',
+        flexDirection:'column',
         alignItems:"center",
         width:"400px",
         height:"100px",
         backgroundColor:'#ccc',
+        padding:'40px',
 
     },
 },
